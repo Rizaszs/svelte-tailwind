@@ -1,9 +1,12 @@
 <script>
 	import '../app.css';
+	import NavBar from '../components/NavBar.svelte';
+	import Hero from '../components/Hero.svelte';
+	import Footer from '../components/Footer.svelte';
 </script>
 
-<section class="min-h-screen w-full bg-gray-200 flex flex-col justify-center items-center">
-	<div class=" bg-white rounded-lg p-5">
-		<h1 class=" text-4xl text-zinc-500">Hello world</h1>
-	</div>
+<section class="min-h-screen flex flex-col justify-between items-center bg-base-200">
+	<NavBar />
+	<Hero />
+	<Footer />
 </section>
