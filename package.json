@@ -5,7 +5,7 @@
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
 		"preview": "vite preview",
-		"gh-pages": "npm run build && npx gh-pages -d build",
+		"deploy": "npm run build && npx gh-pages -d build",
 		"package": "svelte-kit sync && svelte-package && publint",
 		"prepublishOnly": "npm run package",
 		"test": "playwright test",
