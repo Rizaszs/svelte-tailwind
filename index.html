@@ -5,12 +5,12 @@
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<link rel="modulepreload" href="./_app/immutable/entry/start.65f2f5ec.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.6dba6488.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.24fae60a.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.30b64d72.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.6e67e459.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.034958fe.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.5578ef69.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.49f1d48b.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.fd84a548.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.08fe8af3.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.6d351ede.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.04b6899c.js">
 		<script src="https://cdn.tailwindcss.com"></script>
 
 		<link
@@ -36,7 +36,19 @@
 		<div>
 
 
-<section class="min-h-screen flex flex-col justify-between items-center bg-white">
+<section class="min-h-screen flex flex-col justify-between items-center bg-white"><div class="navbar bg-base-100 z-10"><div class="navbar-start"><div class="dropdown"><label tabindex="0" class="btn btn-ghost lg:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"></path></svg></label>
+			<ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"><li><a>Item 1</a></li>
+				<li><a>Parent</a>
+					<ul class="p-2"><li><a>Submenu 1</a></li>
+						<li><a>Submenu 2</a></li></ul></li>
+				<li><a>Item 3</a></li></ul></div>
+		<a class="btn btn-ghost normal-case text-xl">Svelte Love</a></div>
+	<div class="navbar-center hidden lg:flex"><ul class="menu menu-horizontal px-1"><li><a>Item 1</a></li>
+			<li tabindex="0"><details><summary>Parent</summary>
+					<ul class="p-2"><li><a>Submenu 1</a></li>
+						<li><a>Submenu 2</a></li></ul></details></li>
+			<li><a>Item 3</a></li></ul></div>
+	<div class="navbar-end"><a class="btn">Button</a></div></div>
 	<div class="hero h-full absolute" style="background-image: url(https://images.pexels.com/photos/4534137/pexels-photo-4534137.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);"><div class="hero-overlay bg-opacity-60"></div>
 	<div class="hero-content text-center text-neutral-content"><div class="max-w-2xl"><h1 class="mb-5 text-5xl font-bold">Hello Bali</h1>
 			<p class="mb-5">llorem llorem llorem llorem llorem llorem llorem llorem llorem llorem llorem llorem llorem
@@ -50,7 +62,7 @@
 			
 			<script>
 				{
-					__sveltekit_n5dsut = {
+					__sveltekit_1bmveup = {
 						base: new URL(".", location).pathname.slice(0, -1),
 						env: {}
 					};
@@ -60,8 +72,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.65f2f5ec.js"),
-						import("./_app/immutable/entry/app.30b64d72.js")
+						import("./_app/immutable/entry/start.5578ef69.js"),
+						import("./_app/immutable/entry/app.08fe8af3.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],
